@@ -84,10 +84,19 @@ class Game
     until self.over?
       self.turn
     end
+<<<<<<< HEAD
     if self.won?
        puts "Congratulations " + self.winner + "!"
     elsif self.draw?
       puts "Cat's Game!"
+=======
+    if self.draw?
+      puts "Cat's Game!"
+    else
+      if self.won?
+       puts "Congratulations " + self.winner + "!"
+      end
+>>>>>>> 74d70652b8434848456c11e7f3e194f540dc4e82
     end
   end
   

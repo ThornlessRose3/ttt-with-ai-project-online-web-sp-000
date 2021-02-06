@@ -2,6 +2,7 @@ require 'pry'
 module Players
   class Computer < Player
   
+<<<<<<< HEAD
   def move(board)
     if board.valid_move?(5)
       input = "5"
@@ -25,6 +26,14 @@ module Players
     end
     board.update(input, self)
     input
+=======
+  def move
+<<<<<<< HEAD
+    binding.pry
+=======
+    
+>>>>>>> 74d70652b8434848456c11e7f3e194f540dc4e82
+>>>>>>> 37ac59afa8f2835438942bd9bc2185019991cad6
   end
   
   end
